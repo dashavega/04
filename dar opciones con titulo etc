@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="juego.css">
+ <h1></h1>
+    <p></p>
+
+    <picture>
+        <img src=" "alt="">
+    </picture>
+    <ul id="opciones">
+        <li><a href="" class="boton"></a></li>
+        <li><a href="" class="boton"></a></li>
+        <li><a href="" class="boton"></a></li>
+        <li><a href="" class="boton"></a></li>
+        <li><a href="" class="boton"></a></li>
+    </ul>
+   

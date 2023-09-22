@@ -1,0 +1,131 @@
+body {
+    background-color: #000;
+    /* color de fondo de toda la página */
+    color: #661eee;
+    /* color de letra de toda la página */
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* peso del contorno de la letra */
+}
+
+p {
+    text-align: center;
+}
+
+/* imagen */
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+picture img {
+    width: 20%;
+    /*  width: ancho / height: alto*/
+}
+
+/* lista y enlace */
+#opciones {
+    text-align: center;
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
+    padding: 10px;
+}
+
+/* selector por id de abue */
+#abu {
+    background-color: #c269bd;
+}
+
+.boton {
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #fff;
+    border: 4px solid rgb(52, 23, 219);
+    font-weight: 900;
+    padding: 5px;
+    /* margen interior */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(135, 205, 222);
+    color: #000;
+}
+
+#cam {
+    background-color: #9b7edd;
+}
+
+#cam1 {
+    background-color: rgb(108, 152, 235);
+}
+
+#moch1 {
+    background-color: #c269bd;
+}
+
+#cam2 {
+    background-color: #1673b1;
+}
+
+#cam3 {
+    background-color: #5582e2;
+}
+
+#mam1 {
+    background-color: #f01e1e;
+}
+
+#mam1 h1 {
+    font-size: 5.5em;
+    color: aliceblue;
+}
+
+#mam2 h1 {
+    font-size: 5.5em;
+    color: aliceblue;
+
+}
+
+#mam2 {
+
+    background-color: #5582e2;
+}
+
+#plat1 {
+    font-size: 3.3em;
+    color: aliceblue;
+}
+
+#plat2 {
+    font-size: 3.3em;
+    color: rgb(228, 12, 12);
+}
+#dorm1{
+    font-size: 3.3em;
+    color: rgb(228, 12, 12);
+}
+
+#dorm2{
+    font-size: large;
+color: #5582e2;
+}
+#cur1{
+    font-size: large;
+    color:#5582e2 ;
+}
+#curm2{
+    font-size: large;
+    color:#5582e2 ;
+
+}
